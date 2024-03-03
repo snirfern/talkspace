@@ -14,6 +14,7 @@ class BookingsController {
 
     constructor() {
         this.userStatisticsService = new UserStatistics()
+        this.bookingService = new BookingService()
         this.logger = new Logger('users')
     }
 
